@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://class.coursera.org/datasci-002/assignment/view?assignment_id=5 -->
+<html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE7"><meta name="fragment" content="!"><meta name="robots" content="NOODP"><meta charset="utf-8"><meta property="og:title" content="Coursera"><meta property="og:type" content="website"><meta property="og:image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta property="og:url" content="https://www.coursera.org/assignment/view?assignment_id=5"><meta property="og:site_name" content="Coursera"><meta property="og:locale" content="en_US"><meta property="og:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta property="fb:admins" content="727836538,4807654"><meta property="fb:app_id" content="274998519252278"><meta name="twitter:site" content="Coursera"><meta name="twitter:app:name:iphone" content="Coursera"><meta name="twitter:app:name:ipad" content="Coursera"><meta name="twitter:app:name:googleplay" content="Coursera"><meta name="twitter:app:id:iphone" content="id736535961"><meta name="twitter:app:id:ipad" content="id736535961"><meta name="twitter:app:id:googleplay" content="org.coursera.android"><meta name="description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="image" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><meta name="apple-itunes-app" content="app-id=736535961"><title>Assignment Details | Coursera</title>    <link href="./Assignment Details   Coursera_files/spark.main.css" rel="stylesheet" type="text/css">
+      <link href="./Assignment Details   Coursera_files/course.css" rel="stylesheet" type="text/css">
+    <link href="https://spark-public.s3.amazonaws.com/datasci/static/images/favicon.ico" rel="icon">
+<script type="text/javascript" async="" src="./Assignment Details   Coursera_files/ga.js"></script><script type="text/javascript" src="./Assignment Details   Coursera_files/MathJax.js"></script><style type="text/css"></style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -90px !important;
+    width: 180px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/routes" src="./Assignment Details   Coursera_files/routes.js"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Coursera"><meta name="twitter:description" content="Take free online classes from 80+ top universities and organizations. Coursera is a social entrepreneurship company partnering with Stanford University, Yale University, Princeton University and others around the world to offer courses online for anyone to take, for free. We believe in connecting people to a great education so that anyone around the world can learn without limits."><meta name="twitter:image:src" content="http://s3.amazonaws.com/coursera/media/Coursera_Computer_Narrow.png"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/204" src="./Assignment Details   Coursera_files/204.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page" src="./Assignment Details   Coursera_files/student-page.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/student-page.html" src="./Assignment Details   Coursera_files/student-page.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/sparkSurveyQuestions/sparkSurveyQuestionsSessionModel" src="./Assignment Details   Coursera_files/sparkSurveyQuestionsSessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/quickQuestions/sessionModel" src="./Assignment Details   Coursera_files/sessionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/assessmentTypes/SessionModel" src="./Assignment Details   Coursera_files/sessionModel(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionCollection" src="./Assignment Details   Coursera_files/QuestionCollection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/framework/QuestionModel" src="./Assignment Details   Coursera_files/QuestionModel.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/student-page" src="./Assignment Details   Coursera_files/student-page(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bundles/assess/lib/backbone.hascollections" src="./Assignment Details   Coursera_files/backbone.hascollections.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/underscore.extend" src="./Assignment Details   Coursera_files/underscore.extend.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header" src="./Assignment Details   Coursera_files/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar" src="./Assignment Details   Coursera_files/sidebar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/readme" src="./Assignment Details   Coursera_files/readme.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/header.html" src="./Assignment Details   Coursera_files/header.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark-survey/assessApi" src="./Assignment Details   Coursera_files/assessApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/sidebar.html" src="./Assignment Details   Coursera_files/sidebar.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signature_track" src="./Assignment Details   Coursera_files/signature_track.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/help-center/data/HelpCenterLinks" src="./Assignment Details   Coursera_files/HelpCenterLinks.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/signatureTrackLastChanceModal.html" src="./Assignment Details   Coursera_files/signatureTrackLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spark/app/signature/js/flexjoinLastChanceModal.html" src="./Assignment Details   Coursera_files/flexjoinLastChanceModal.html.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/util" src="./Assignment Details   Coursera_files/util.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="js/lib/path" src="./Assignment Details   Coursera_files/path.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/header" src="./Assignment Details   Coursera_files/header(1).js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/spark/views/template/nls/sidebar" src="./Assignment Details   Coursera_files/sidebar(1).js"></script><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -5px 0 0 0; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head><body class="c4"><div id="origami"><div><div><div class="coursera-page"><div style="position:relative;" class="container-fluid"><div class="row-fluid"><div id="course-page-content" role="main"><div id="spark" class="hide" style="display: block;"><h2 class="course-page-header">
+  <span>Algorithms in MapReduce: Instructions</span>
+
+  <a class="coursera-reporter-link" title="Click here if you&#39;re experiencing technical problems or found errors in the course materials." target="_blank" href="https://class.coursera.org/datasci-002/help/programming?url=https%3A%2F%2Fclass.coursera.org%2Fdatasci-002%2Fassignment%2Fview%3Fassignment_id%3D5">
+     Help
+  </a>
+</h2>
+
+<p>
+
+
+
+<title>Assignment 3 - MapReduce</title>
+
+
+
+
+</p><p class="c2"><span>In this assignment, you will be designing and implementing MapReduce algorithms for a variety of common data processing tasks. &nbsp;</span></p><p class="c1"><span></span></p>
+
+
+<p class="c2">The MapReduce programming model (and a corresponding system) was proposed in a 2004 paper from a team at Google as a simpler abstraction for processing very large datasets in parallel. &nbsp;The goal of this assignment is to give you experience “thinking in MapReduce.” &nbsp;We will be using small datasets that you can inspect directly to determine the correctness of your results and to internalize how MapReduce works. &nbsp;In the next assignment, you will have the opportunity to use a MapReduce-based system to process the very large datasets for which it was designed.</p>
+
+<p class="c2">As always, the first thing to do is to update your provided course materials using <code>git pull</code>. These resources may have changed since the last time you interacted with the datasci_course_materials repository.<span class="c5">(Review the <a href="https://class.coursera.org/datasci-001/wiki/view?page=GithubInstructions">Github Instructions</a> if necessary).</span></p><p class="c2"><span>Next, review the lectures to make sure you understand the programming model.</span></p>
+
+<h1 class="c2">Python MapReduce Framework</h1>
+
+<p class="c2">You will be provided with a python library called MapReduce.py that implements the MapReduce programming model. The framework faithfully implements the MapReduce programming model, but it executes entirely on a single machine -- it does not involve parallel computation. </p>
+
+
+<p class="c2">Here is the word count example discussed in class implemented as a MapReduce program using the framework:</p>
+
+
+<pre># Part 1
+mr = MapReduce.MapReduce()
+
+# Part 2
+def mapper(record):
+    # key: document identifier
+    # value: document contents
+    key = record[0]
+    value = record[1]
+    words = value.split()
+    for w in words:
+      mr.emit_intermediate(w, 1)
+
+# Part 3
+def reducer(key, list_of_values):
+    # key: word
+    # value: list of occurrence counts
+    total = 0
+    for v in list_of_values:
+      total += v
+    mr.emit((key, total))
+
+# Part 4
+inputdata = open(sys.argv[1])
+mr.execute(inputdata, mapper, reducer)
+</pre>
+
+
+<p class="c2"><span>In Part 1, we create a MapReduce object that is used to pass data between the map function and the reduce function; you won’t need to use this object directly.</span></p>
+
+<p class="c2">In Part 2, the mapper function tokenizes each document and emits a key-value pair. The key is a word formatted as a string and the value is the integer 1 to indicate an occurrence of word.</p>
+
+<p class="c2">In Part 3, the reducer function sums up the list of occurrence counts and emits a count for word. Since the mapper function emits the integer 1 for each word, each element in the list_of_values is the integer 1. </p>
+
+<p class="c2">The list of occurrence counts is summed and a (word, total) tuple is emitted where word is a string and total is an integer.</p>
+
+<p class="c2">In Part 4, the code loads the json file and executes the MapReduce query which prints the result to stdout.</p>
+
+<h1 class="c2">Submission Details</h1>
+
+<p class="c2">For each problem, you will turn in a python script, similar to wordcount.py, that solves the problem using the supplied MapReduce framework.</p>
+
+<p class="c2">When testing, make sure MapReduce.py is in the same directory as the solution script.</p>
+
+<p class="c1">Solution data will be provided for each problem in the solutions folder.</p>
+
+<p>Your python submission scripts are required to have a mapper function that accepts at least 1 argument and a reducer function that accepts at least 2 arguments. Your submission is also required to have a global variable named mr which points to a MapReduce object. If you solve the problems by simply replacing the mapper and reducer functions in wordcount.py, then this condition will be satisfied automatically.</p>
+
+<h1 class="c2">Problem 1</h1>
+
+<p class="c2">Create an Inverted index. Given a set of documents, an inverted index is a dictionary where each word is associated with a list of the document identifiers in which that word appears.</p>
+
+<h2 class="c2">Mapper Input</h2>
+
+<p class="c2"><span>The input is a 2 element list: <code>[document_id, text]</code>, where <code>document_id</code> is a string representing a document identifier and <code>text</code> is a string representing the text of the document.  The document text may have words in upper or lower case and may contain punctuation. You should treat each token as if it was a valid word; that is, you can just use value.split() to tokenize the string.</span></p>
+
+<h2 class="c2">Reducer Output</h2>
+
+<p class="c2"><span>The output should be a (word, document ID list) tuple where word is a String and document ID list is a list of Strings.</span></p><p class="c1"><span></span></p><p class="c2"><span>You can test your solution to this problem using books.json:</span></p><p class="c2"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python inverted_index.py books.json</span></p><p class="c1"><span></span></p><p class="c2"><span>You can verify your solution against inverted_index.json.</span></p>
+
+<h1 class="c2"><a name="h.h9ky98lavkt4"></a><span>Problem 2</span></h1>
+
+<p class="c2"><span>Implement a relational join as a MapReduce query</span></p>
+
+<p class="c2"><span>Consider the following query: </span></p>
+
+<pre>SELECT * 
+FROM Orders, LineItem 
+WHERE Order.order_id = LineItem.order_id
+</pre>
+
+
+<p class="c2">Your MapReduce query should produce the same result as this SQL query executed against an appropriate database. </p>
+
+<p>You can consider the two input tables, Order and LineItem, as one big concatenated bag of records that will be processed by the map function record by record.</p>
+
+
+<h2 class="c2">Map Input</h2>
+
+
+<p class="c2"><span>Each input record is a list of strings representing a tuple in the database. Each list element corresponds to a different attribute of the table</span></p>
+
+<p class="c2"><span>The first item (index 0) in each record is a string that identifies the table the record originates from. This field has two possible values:</span></p>
+
+<ul>
+<li>"line_item" indicates that the record is a line item.</li>
+<li>"order" indicates that the record is an order.</li>
+</ul>
+<p>The second element (index 1) in each record is the order_id.</p>
+
+<p class="c2"><span>LineItem records have 17 attributes including the identifier string.</span></p>
+
+<p class="c2"><span>Order records have 10 elements including the identifier string.</span></p>
+
+<h2 class="c2"><a name="h.1jod59f5lohi"></a><span>Reduce Output</span></h2>
+
+<p class="c2"><span>The output should be a joined record: a single list of length 27 that contains the attributes from the order record followed by the fields from the line item record. Each list element should be a string.</span></p>
+
+<p class="c2"><span>You can test your solution to this problem using records.json:</span></p>
+
+<pre>$ python join.py records.json
+</pre>
+
+<p class="c2"><span>You can can compare your solution with join.json.</span></p>
+
+<h1 class="c2">Problem 3</h1>
+
+<p class="c2"><span>Consider a simple social network dataset consisting of a set of key-value pairs <code>(person, friend)</code> representing a friend relationship between two people. Describe a MapReduce algorithm to count the number of friends for each person.</span></p>
+
+<h2 class="c2"><a name="h.6bmaxr6905fq"></a><span>Map Input</span></h2>
+
+<p class="c2">Each input record is a 2 element list <code>[personA, personB]</code> where personA is a string representing the name of a person and personB is a string representing the name of one of personA's friends. Note that it may or may not be the case that the personA is a friend of personB.</p>
+
+<h2 class="c2"><a name="h.f3410fx887ut"></a><span>Reduce Output</span></h2>
+
+<p class="c2"><span>The output should be a pair <code>(person, friend_count)</code> where person is a string and friend_count is an integer indicating the number of friends associated with person.</span></p>
+
+<p class="c2"><span>You can test your solution to this problem using friends.json:</span></p>
+
+<pre>$ python friend_count.py friends.json
+</pre>
+
+<p class="c2"><span>You can verify your solution by comparing your result with the file friend_count.json.</span></p>
+
+<h1 class="c2">Problem 4</h1>
+
+<p class="c2"><span>The relationship "friend" is often symmetric, meaning that if I am your friend, you are my friend. Implement a MapReduce algorithm to check whether this property holds. Generate a list of all non-symmetric friend relationships.</span></p>
+
+<h2 class="c2"><a name="h.40menlv78i9q"></a><span>Map Input</span></h2>
+
+<p class="c2">Each input record is a 2 element list <code>[personA, personB]</code> where personA is a string representing the name of a person and personB is a string representing the name of one of personA's friends. Note that it may or may not be the case that the personA is a friend of personB.</p>
+
+<h2 class="c2"><a name="h.atam3upnj7wp"></a><span>Reduce Output</span></h2>
+
+<p class="c2"><span>The output should be the full symmetric relation.  For every pair (person, friend), you will emit BOTH (person, friend) AND (friend, person).  However, be aware that (friend, person) may already appear in the dataset, so you may produce duplicates if you are not careful.</span></p>
+
+<p class="c2"><span>You can test your solution to this problem using friends.json:</span></p>
+
+<pre>$ python asymmetric_friendships.py friends.json
+</pre>
+
+<p class="c2"><span>You can verify your solution by comparing your result with the file asymmetric_friendships.json.</span></p>
+
+<h1 class="c2">Problem 5</h1>
+
+<p class="c2"><span>Consider a set of key-value pairs where each key is sequence id and each value is a string of nucleotides, e.g., GCTTCCGAAATGCTCGAA....</span></p>
+
+<p class="c2"><span>Write a MapReduce query to remove the last 10 characters from each string of nucleotides, then remove any duplicates generated.</span></p>
+
+<h2 class="c2">Map Input</h2>
+
+<p class="c2"><span>Each input record is a 2 element list <code>[sequence id, nucleotides]</code> where sequence id is a string representing a unique identifier for the sequence and nucleotides is a string representing a sequence of nucleotides</span></p>
+
+<h2 class="c2">Reduce Output</h2>
+
+<p class="c2"><span>The output from the reduce function should be the unique trimmed nucleotide strings.</span></p>
+
+<p class="c2"><span>You can test your solution to this problem using dna.json:</span></p>
+
+<pre>$ python unique_trims.py dna.json
+</pre>
+
+<p class="c2"><span>You can verify your solution by comparing your result with the file unique_trims.json.</span></p>
+
+<h1 class="c2">Problem 6</h1>
+
+<p class="c2"><span>Assume you have two matrices A and B in a sparse matrix format, where each record is of the form i, j, value. Design a MapReduce algorithm to compute the matrix multiplication A x B</span></p>
+
+<h2 class="c2"><a name="h.aqh2zputdew"></a><span>Map Input</span></h2>
+
+<p class="c2"><span>The input to the map function will be a row of a matrix represented as a list.  Each list will be of the form <code>[matrix, i, j, value]</code> where matrix is a string and i, j, and value are integers.</span></p>
+
+<p class="c2"><span>The first item, matrix, is a string that identifies which matrix the record originates from. This field has two possible values: "a" indicates that the record is from matrix A and "b" indicates that the record is from matrix B</span></p>
+
+<h2 class="c2">Reduce Output</h2>
+
+<p class="c2"><span>The output from the reduce function will also be a row of the result matrix represented as a tuple.   Each tuple will be of the form (i, j, value) where each element is an integer.</span></p>
+
+<p class="c2"><span>You can test your solution to this problem using matrix.json:</span></p>
+
+<pre>$ python multiply.py matrix.json</pre>
+
+<p class="c2"><span>You can verify your solution by comparing your result with the file multiply.json.</span></p>
+
+
+
+<p></p>
+<script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+</div></div></div></div></div></div></div></div>
+
+
+    
+      
+  </body></html>
