@@ -1,5 +1,6 @@
-datasci_course_materials
+Introduction to Data Science: Bill Howe; University of Washington
 ========================
 
-Public repository for course materials for the Spring 2013 and 2014 sessions of Introduction to Data Science, an online coursera course.
+Repo for my work in this class from the Coursera summer 2014 edition.
+https://class.coursera.org/datasci-002
 
